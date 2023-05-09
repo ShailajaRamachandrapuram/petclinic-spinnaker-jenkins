@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build Application') { 
             steps {
-                echo '=== Building Petclinic Application ==='
+                echo '=== Building Petclinic Application 2==='
                 sh 'mvn -B -DskipTests clean package' 
             }
         }
